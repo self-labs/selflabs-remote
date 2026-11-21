@@ -24,7 +24,8 @@ mudanças no empacotamento entre duas versões do RustDesk ficam em `[Unreleased
   jordao (Windows Server 2025, RustDesk 1.4.9, MSI) e na camilla (notebook, RustDesk 1.5.3 pelo `.exe`)
   em 2026-11-21: mesmo ID, NSSM intacto. O `-Finalize` da camilla removeu o RustDesk do `.exe` e o
   serviço extra `RustDeskSvc`, com o SelfDesk no mesmo ID, e o `-Update` reinstalou o MSI por cima
-  (`REINSTALL=ALL`) mantendo o ID.
+  (`REINSTALL=ALL`) mantendo o ID. O `-Finalize` do jordao removeu o RustDesk do MSI (`msiexec /x`) com os
+  serviços NSSM do `hbbs`/`hbbr` intactos.
 
 ### 🔧 Changed
 

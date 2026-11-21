@@ -105,7 +105,7 @@ done
 
 > [!WARNING]
 > **Migração testada em dois Windows** (21/11/2026): um Windows Server 2025 com o RustDesk do MSI e um
-> notebook com o do `.exe`, este também com o `-Finalize` e o `-Update`. O `-Rollback` ainda não. Num
+> notebook com o do `.exe`, os dois também com o `-Finalize`, e o notebook com o `-Update`. O `-Rollback` ainda não. Num
 > Windows novo, rode antes o `-Check` numa máquina de teste. Para atualizar, use sempre o comando acima, que
 > baixa o script do dia: a cópia em `C:\ProgramData\SelfDesk-migrate` é a da última execução desacoplada.
 
